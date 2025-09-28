@@ -30,7 +30,15 @@ Install all dependencies via:
 pip install astropy numpy natsort astroscrappy
 
 
-Usage
+## Naming conventions
+The raw bias images should be named as bias001.fits, bias002.fits, .... etc 
+The raw flat frames should be named as flat_i_001.fits, flat_i_002.fits, ... flat_v_001.fits, flat_v_002.fits,... flat_r_001.fits,flat_r_002.fits, ..etc 
+The raw image frames should be named as M31_v_30s_001.fits ... etc
+
+## Note
+The code by default can handle filters V,R,I. However, you can edit Line 139 of the code to include FILTERS of your choice. However, use lowercase names of FILTERS while adding. 
+
+## Usage
 
 Run the script directly:
 python fits_processing.py
