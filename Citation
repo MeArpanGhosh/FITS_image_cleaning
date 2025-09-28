@@ -1,0 +1,6 @@
+Citation
+
+If you use this code in a scientific publication, please cite AstroScrappy, which provides the cosmic ray rejection algorithm:
+
+M. T. Craig, A. M. Crawford, A. W. Mann, K. M. Pichon, J. M. Sick, and J. J. van Santen (2023). astroscrappy: Speedy Cosmic Ray Cleaning. Astrophysics Source Code Library, record ascl:1602.008.
+DOI: 10.5281/zenodo.1482019
