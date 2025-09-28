@@ -1,0 +1,31 @@
+# Guidelines for FITS Processing Pipeline
+
+## Naming Conventions
+
+- **Bias frames**  
+  `bias001.fits`, `bias002.fits`, ...  
+
+- **Flat frames**  
+  - `flat_i_001.fits`, `flat_i_002.fits`, ...  
+  - `flat_v_001.fits`, `flat_v_002.fits`, ...  
+  - `flat_r_001.fits`, `flat_r_002.fits`, ...  
+
+- **Science frames**  
+  `M31_v_30s_001.fits`, `M31_r_60s_002.fits`, etc.
+
+---
+
+## Notes
+
+- By default, the code can handle **filters V, R, I**.  
+- To add more filters, edit **line 139** of `fits_processing.py`.  
+- ⚠️ Use **lowercase filter names** when adding them.
+
+---
+
+## Usage
+
+Run the script directly:
+
+```bash
+python fits_processing.py
